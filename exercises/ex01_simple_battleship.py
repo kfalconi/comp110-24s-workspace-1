@@ -68,7 +68,3 @@ else: # user_number >= 4
 if user_input2 != 1 or 2 or 3 or 4 :
     print(f"ERROR! {user_input2} out of range")
     exit(user_input2)
-
-
- 
-
