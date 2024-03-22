@@ -19,9 +19,6 @@ else: # user_number >= 4
         user_number2: int = int(user_input2)
         print(type(user_number2))
 
-if user_input != 1 or 2 or 3 or 4 :
-    print(f"ERROR! {user_input} out of range")
-    exit(user_input)
 
 BLUE_BOX: str = "\U0001F7E6"
 RED_BOX: str = "\U0001F7E5"
@@ -65,6 +62,4 @@ else: # user_number >= 4
                         print(f"{BLUE_BOX}{BLUE_BOX}{BLUE_BOX}{WHITE_BOX}")
                         print("Incorrect! You missed the ship.")
 
-if user_input2 != 1 or 2 or 3 or 4 :
-    print(f"ERROR! {user_input2} out of range")
-    exit(user_input2)
+
